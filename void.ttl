@@ -22,3 +22,7 @@
 [ vann:preferredNamespacePrefix "em" ;
   vann:preferredNamespaceUri "http://purl.org/vocab/emotion/"
 ] .
+
+[ vann:preferredNamespacePrefix "wn" ;
+  vann:preferredNamespaceUri "http://wordnet-rdf.princeton.edu/wn31/"
+] .

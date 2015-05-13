@@ -1,1 +1,5 @@
-em:anger skos:closeMatch :q
+@prefix wordnet: <http://wordnet-rdf.princeton.edu/wn31/> .
+
+em:anger skos:closeMatch wordnet:107531593-n;
+	 skos:closeMatch wordnet:114060021-n;
+	 skos:closeMatch wordnet:100760325-n.

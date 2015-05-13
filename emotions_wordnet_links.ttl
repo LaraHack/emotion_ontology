@@ -1,5 +1,7 @@
-@prefix wordnet: <http://wordnet-rdf.princeton.edu/wn31/> .
+@prefix wn: <http://wordnet-rdf.princeton.edu/wn31/> .
+@prefix em: <http://purl.org/vocab/emotion/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 
-em:anger skos:closeMatch wordnet:107531593-n;
-	 skos:closeMatch wordnet:114060021-n;
-	 skos:closeMatch wordnet:100760325-n.
+em:anger skos:closeMatch wn:107531593-n;
+	 skos:closeMatch wn:114060021-n;
+	 skos:closeMatch wn:100760325-n.

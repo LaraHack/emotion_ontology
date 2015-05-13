@@ -1,4 +1,5 @@
-@prefix em <http://purl.org/vocab/emotion#>
+@prefix rdf <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+@prefiv dct <http://purl.org/dc/terms/>
 @prefix skos <http://www.w3.org/2004/02/skos/core#>
 
 em:emotionOntology rdf:type skos:ConceptScheme;

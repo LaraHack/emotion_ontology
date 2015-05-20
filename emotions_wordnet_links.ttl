@@ -2,6 +2,216 @@
 @prefix em: <http://purl.org/vocab/emotion/> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 
+em:emotion skos:closeMatch wn:107495208-n.
+
 em:anger skos:closeMatch wn:107531593-n;
 	 skos:closeMatch wn:114060021-n;
 	 skos:closeMatch wn:100760325-n.
+
+em:annoyance skos:closeMatch wn:114429977-n;
+	 skos:closeMatch wn:107533500-n;
+	 skos:closeMatch wn:109797978-n;
+	 skos:closeMatch wn:105838383-n;
+	 skos:closeMatch wn:100419407-n.
+
+em:acquiescence skos:closeMatch wn:114436566-n;
+	 skos:closeMatch wn:107190226-n.
+
+em:awe skos:closeMatch wn:107525423-n;
+	 skos:closeMatch wn:107536278-n.
+
+em:benevolence skos:closeMatch wn:107561087-n;
+	 skos:closeMatch wn:104847516-n;
+	 skos:closeMatch wn:101229168-n.
+
+em:compassion skos:closeMatch wn:107569189-n;
+	 skos:closeMatch wn:104836781-n.
+
+em:dedication skos:closeMatch wn:104884616-n;
+	 skos:closeMatch wn:101208643-n.
+
+em:desire skos:closeMatch wn:107499405-n;
+	 skos:closeMatch wn:104952234-n;
+	 skos:closeMatch wn:114062475-n.
+
+em:despair skos:closeMatch wn:114509858-n;
+	 skos:closeMatch wn:107557311-n.
+
+em:devotion skos:closeMatch wn:107559879-n;
+	 skos:closeMatch wn:101209043-n;
+	 skos:closeMatch wn:101046545-n;
+	 skos:closeMatch wn:101044796-n.
+
+em:disappointment skos:closeMatch wn:107555990-n;
+	 skos:closeMatch wn:100069575-n.
+
+em:disgust skos:closeMatch wn:107518499-n.
+
+em:fear skos:closeMatch wn:107534492-n;
+	 skos:closeMatch wn:107539768-n;
+	 skos:closeMatch wn:107536278-n.
+
+em:feelingOfLoss skos:closeMatch wn:100068346-n;
+	 skos:closeMatch wn:107302177-n;
+	 skos:closeMatch wn:107348249-n.
+
+em:happiness skos:closeMatch wn:114010908-n;
+	 skos:closeMatch wn:107541996-n.
+
+em:hatred skos:closeMatch wn:107561835-n.
+
+em:heavyHeartedness skos:closeMatch wn:107511603-n;
+	 skos:closeMatch wn:114500436-n;
+	 skos:closeMatch wn:107553783-n.
+
+em:honor skos:closeMatch wn:106709228-n;
+	 skos:closeMatch wn:114460341-n;
+	 skos:closeMatch wn:104876319-n.
+
+em:joy skos:closeMatch wn:107542591-n;
+	 skos:closeMatch wn:105838106-n.
+
+em:love skos:closeMatch wn:107558676-n;
+	 skos:closeMatch wn:105821331-n;
+	 skos:closeMatch wn:109869006-n.
+
+em:loyalty skos:closeMatch wn:104884725-n;
+	 skos:closeMatch wn:107561759-n;
+	 skos:closeMatch wn:101208643-n.
+
+em:moved skos:closeMatch wn:301564296-a.
+
+em:offended skos:closeMatch wn:301812324-s.
+
+em:relief skos:closeMatch wn:107508420-n;
+	 skos:closeMatch wn:114469215-n;
+	 skos:closeMatch wn:100355710-n.
+
+em:remorse skos:closeMatch wn:107551462-n.
+
+em:sadness skos:closeMatch wn:107547828-n;
+	 skos:closeMatch wn:114012536-n;
+	 skos:closeMatch wn:104638827-n.
+
+em:shame skos:closeMatch wn:107521808-n;
+	 skos:closeMatch wn:114463603-n.
+
+em:spitefulness skos:closeMatch wn:107566132-n;
+	 skos:closeMatch wn:104849746-n.
+
+em:suspicion skos:closeMatch wn:105706756-n;
+	 skos:closeMatch wn:104903174-n.
+
+em:trust skos:closeMatch wn:104902441-n;
+	 skos:closeMatch wn:105951915-n;
+	 skos:closeMatch wn:113952885-n.
+
+em:unhappiness skos:closeMatch wn:107547828-n;
+	 skos:closeMatch wn:114012148-n.
+
+em:vindictiveness skos:closeMatch wn:107566357-n.
+
+em:wonder skos:closeMatch wn:107525235-n;
+	 skos:closeMatch wn:107304311-n.
+
+em:worry skos:closeMatch wn:105840588-n;
+	 skos:closeMatch wn:107539481-n.
+
+em:appraisal skos:closeMatch wn:104854529-n; 
+	 skos:closeMatch wn:105146223-n;
+	 skos:closeMatch wn:104854713-n;
+	 skos:closeMatch wn:104861104-n;
+	 skos:closeMatch wn:100748327-n.
+
+em:arrogance skos:closeMatch wn:104895107-n.
+
+em:charity skos:closeMatch wn:104847636-n.
+
+em:courage skos:closeMatch wn:1104864314-n;
+	 skos:closeMatch wn:105039348-n.
+
+em:envy skos:closeMatch wn:107565182-n;
+	 skos:closeMatch wn:100759688-n.
+
+em:faith skos:closeMatch wn:105955536-n;
+	 skos:closeMatch wn:108098545-n.
+
+em:gluttony skos:closeMatch wn:100760539-n.
+
+em:greed skos:closeMatch wn:104952707-n;
+	 skos:closeMatch wn:100759878-n.
+
+em:hope skos:closeMatch wn:107526972-n;
+	 skos:closeMatch wn:105959600-n;
+	 skos:closeMatch wn:104855493-n.
+
+em:justice skos:closeMatch wn:104857348-n.
+
+em:lust skos:closeMatch wn:107504854-n;
+	 skos:closeMatch wn:100760688-n.
+
+em:pride skos:closeMatch wn:107523725-n;
+	 skos:closeMatch wn:107546924-n;
+	 skos:closeMatch wn:104893841-n;
+	 skos:closeMatch wn:100759528-n.
+
+em:prudence skos:closeMatch wn:105623283-n.
+
+em:sloth skos:closeMatch wn:104644801-n;
+	 skos:closeMatch wn:100760148-n.
+
+em:temperance skos:closeMatch wn:104890809-n;
+	 skos:closeMatch wn:101071701-n;
+	 skos:closeMatch wn:100382375-n.
+
+em:wrath skos:closeMatch wn:107532144-n;
+	 skos:closeMatch wn:100760325-n.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

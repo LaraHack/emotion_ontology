@@ -30,7 +30,7 @@ em:annoyance rdf:type skos:Concept;
 	skos:broader em:emotion;
 	skos:inScheme em:emotionOntology.
 
-em:aquiescence rdf:type skos:Concept;
+em:acquiescence rdf:type skos:Concept;
 	skos:prefLabel "aquiescence"@en;
 	skos:prefLabel "berustig"@nl;
 	skos:broader em:emotion;

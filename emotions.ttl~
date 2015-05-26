@@ -1,0 +1,380 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix em: <http://purl.org/vocab/emotion/> .
+
+em:emotionOntology rdf:type skos:ConceptScheme;
+	dct:title "Bible Emotion Ontology";
+	dct:creator "INVENiT";
+	skos:hasTopConcept em:emotion;
+	skos:hasTopConcept em:appraisal.
+
+em:emotion rdf:type skos:Concept;
+	skos:prefLabel "emotion"@en,
+	"emoties"@nl;
+	skos:altLabel "emotion"@en;
+	skos:altLabel "emotie"@nl;
+	skos:inScheme em:emotionOntology.
+
+em:anger rdf:type skos:Concept;
+	skos:prefLabel "anger"@en;
+	skos:prefLabel "woede"@nl;
+	skos:altLabel "angry"@en;
+	skos:broader em:emotion;
+	skos:inScheme em:emotionOntology.
+
+em:annoyance rdf:type skos:Concept;
+	skos:prefLabel "annoyance"@en;
+	skos:prefLabel "wrevel"@nl;
+	skos:altLabel "annoyed"@en;
+	skos:broader em:emotion;
+	skos:inScheme em:emotionOntology.
+
+em:aquiescence rdf:type skos:Concept;
+	skos:prefLabel "aquiescence"@en;
+	skos:prefLabel "berustig"@nl;
+	skos:broader em:emotion;
+	skos:inScheme em:emotionOntology.
+
+em:awe rdf:type skos:Concept;
+	skos:prefLabel "awe"@en;
+	skos:prefLabel "ontzag"@nl;
+	skos:altLabel "awness"@en;
+	skos:broader em:emotion;
+	skos:inScheme em:emotionOntology.
+
+em:benevolence rdf:type skos:Concept;
+	skos:prefLabel "benevolence"@en;
+	skos:prefLabel "welwillendheid"@nl;
+	skos:altLabel "benevolent"@en;
+	skos:broader em:emotion;
+	skos:inScheme em:emotionOntology.
+
+em:compassion rdf:type skos:Concept;
+	skos:prefLabel "compassion"@en;
+	skos:prefLabel "mededogen"@nl;
+	skos:altLabel "compassionate"@en;
+	skos:broader em:emotion;
+	skos:inScheme em:emotionOntology.
+
+em:dedication rdf:type skos:Concept;
+	skos:prefLabel "dedication"@en;
+	skos:prefLabel "toewijding"@nl;
+	skos:altLabel "dedicated"@en;
+	skos:broader em:emotion;
+	skos:inScheme em:emotionOntology.
+
+em:desire rdf:type skos:Concept;
+	skos:prefLabel "desire"@en;
+	skos:prefLabel "verlangen"@nl;
+	skos:broader em:emotion;
+	skos:inScheme em:emotionOntology.
+
+em:despair rdf:type skos:Concept;
+	skos:prefLabel "despair"@en;
+	skos:prefLabel "wanhoop"@nl;
+	skos:altLabel "desperate"@en;
+	skos:broader em:emotion;
+	skos:inScheme em:emotionOntology.
+
+em:devotion rdf:type skos:Concept;
+	skos:prefLabel "devotion"@en;
+	skos:prefLabel "devotie"@nl;
+	skos:altLabel "devoted"@en;
+	skos:broader em:emotion;
+	skos:inScheme em:emotionOntology.
+
+em:dissapointment rdf:type skos:Concept;
+	skos:prefLabel "dissapointment"@en;
+	skos:prefLabel "teleurstelling"@nl;
+	skos:altLabel "dissapointed"@en;
+	skos:broader em:emotion;
+	skos:inScheme em:emotionOntology.
+
+em:disgust rdf:type skos:Concept;
+	skos:prefLabel "disgust"@en;
+	skos:prefLabel "walging"@nl;
+	skos:altLabel "disgusted"@en;
+	skos:broader em:emotion;
+	skos:inScheme em:emotionOntology.
+
+em:fear rdf:type skos:Concept;
+	skos:prefLabel "fear"@en;
+	skos:prefLabel "angst"@nl;
+	skos:altLabel "fearful"@en;
+	skos:broader em:emotion;
+	skos:inScheme em:emotionOntology.
+
+em:feelingOfLoss rdf:type skos:Concept;
+	skos:prefLabel "feelingOfLoss"@en;
+	skos:prefLabel "gemis"@nl;
+	skos:altLabel "loss"@en;
+	skos:broader em:emotion;
+	skos:inScheme em:emotionOntology.
+
+em:happiness rdf:type skos:Concept;
+	skos:prefLabel "happiness"@en;
+	skos:prefLabel "geluk"@nl;
+	skos:altLabel "happy"@en;
+	skos:broader em:emotion;
+	skos:inScheme em:emotionOntology.
+
+em:hatred rdf:type skos:Concept;
+	skos:prefLabel "hatred"@en;
+	skos:prefLabel "haat"@nl;
+	skos:altLabel "hateful"@en;
+	skos:broader em:emotion;
+	skos:inScheme em:emotionOntology.
+
+em:heavyHeartedness rdf:type skos:Concept;
+	skos:prefLabel "heavy heartedness"@en;
+	skos:prefLabel "bedruktheid"@nl;
+	skos:altLabel "heavy-heartedness"@en;
+	skos:broader em:emotion;
+	skos:inScheme em:emotionOntology.
+
+em:honor rdf:type skos:Concept;
+	skos:prefLabel "honor"@en;
+	skos:prefLabel "eergevoel"@nl;
+	skos:broader em:emotion;
+	skos:inScheme em:emotionOntology.
+
+em:joy rdf:type skos:Concept;
+	skos:prefLabel "joy"@en;
+	skos:prefLabel "blijdschap"@nl;
+	skos:altLabel "joyness"@en;
+	skos:broader em:emotion;
+	skos:inScheme em:emotionOntology.
+
+em:love rdf:type skos:Concept;
+	skos:prefLabel "love"@en;
+	skos:prefLabel "liefde"@nl;
+	skos:broader em:emotion;
+	skos:inScheme em:emotionOntology.
+
+em:loyalty rdf:type skos:Concept;
+	skos:prefLabel "loyalty"@en;
+	skos:prefLabel "trouw"@nl;
+	skos:broader em:emotion;
+	skos:inScheme em:emotionOntology.
+
+em:moved rdf:type skos:Concept;
+	skos:prefLabel "moved"@en;
+	skos:prefLabel "ontroerd"@nl;
+	skos:broader em:emotion;
+	skos:inScheme em:emotionOntology.
+
+em:offended rdf:type skos:Concept;
+	skos:prefLabel "offended"@en;
+	skos:prefLabel "beledigd"@nl;
+	skos:altLabel "offense"@en;
+	skos:broader em:emotion;
+	skos:inScheme em:emotionOntology.
+
+em:relief rdf:type skos:Concept;
+	skos:prefLabel "relief"@en;
+	skos:prefLabel "opluchting"@nl;
+	skos:altLabel "reliefed"@en;
+	skos:broader em:emotion;
+	skos:inScheme em:emotionOntology.
+
+em:remorse rdf:type skos:Concept;
+	skos:prefLabel "remorse"@en;
+	skos:prefLabel "wroeging"@nl;
+	skos:broader em:emotion;
+	skos:inScheme em:emotionOntology.
+
+em:sadness rdf:type skos:Concept;
+	skos:prefLabel "sadness"@en;
+	skos:prefLabel "verdriet"@nl;
+	skos:altLabel "sad"@en;
+	skos:broader em:emotion;
+	skos:inScheme em:emotionOntology.
+
+em:shame rdf:type skos:Concept;
+	skos:prefLabel "shame"@en;
+	skos:prefLabel "schaamte"@nl;
+	skos:altLabel "shameful"@en;
+	skos:broader em:emotion;
+	skos:inScheme em:emotionOntology.
+
+em:spitefulness rdf:type skos:Concept;
+	skos:prefLabel "spitefullness"@en;
+	skos:prefLabel "wrok"@nl;
+	skos:altLabel "spiteful"@en;
+	skos:broader em:emotion;
+	skos:inScheme em:emotionOntology.
+
+em:suspicion rdf:type skos:Concept;
+	skos:prefLabel "suspicion"@en;
+	skos:prefLabel "achterdocht"@nl;
+	skos:altLabel "suspicious"@en;
+	skos:broader em:emotion;
+	skos:inScheme em:emotionOntology.
+
+em:trust rdf:type skos:Concept;
+	skos:prefLabel "trust"@en;
+	skos:prefLabel "vertrouwen"@nl;
+	skos:altLabel "trustful"@en;
+	skos:broader em:emotion;
+	skos:inScheme em:emotionOntology.
+
+em:unhappiness rdf:type skos:Concept;
+	skos:prefLabel "unhappiness"@en;
+	skos:prefLabel "ongelukkig"@nl;
+	skos:altLabel "unhappy"@en;
+	skos:broader em:emotion;
+	skos:inScheme em:emotionOntology.
+
+em:vindictiveness rdf:type skos:Concept;
+	skos:prefLabel "vindictiveness"@en;
+	skos:prefLabel "wraakzucht"@nl;
+	skos:altLabel "vindictive"@en;
+	skos:broader em:emotion;
+	skos:inScheme em:emotionOntology.
+
+em:wonder rdf:type skos:Concept;
+	skos:prefLabel "wonder"@en;
+	skos:prefLabel "verwondering"@nl;
+	skos:broader em:emotion;
+	skos:inScheme em:emotionOntology.
+
+em:worry rdf:type skos:Concept;
+	skos:prefLabel "worry"@en;
+	skos:prefLabel "bezorgdheid"@nl;
+	skos:altLabel "worried"@en;
+	skos:broader em:emotion;
+	skos:inScheme em:emotionOntology.
+
+em:appraisal rdf:type skos:Concept;
+	skos:prefLabel "appraisal"@en;
+	skos:prefLabel "waarderingen"@nl;
+	skos:altLabel "appraisal"@en;
+	skos:altLabel "vices"@en;
+	skos:altLabel "vice"@en;
+	skos:altLabel "virtues"@en;
+	skos:altLabel "virtue"@en;
+	skos:altLabel "waardering"@nl;
+	skos:altLabel "zonden"@nl;
+	skos:altLabel "zonde"@nl;
+	skos:altLabel "deugden"@nl;
+	skos:altLabel "deugd"@nl;
+	skos:inScheme em:emotionOntology.
+
+em:arrogance rdf:type skos:Concept;
+	skos:prefLabel "arrogance"@en;
+	skos:prefLabel "hoogmoed"@nl;
+	skos:altLabel "arrogant"@en;
+	skos:broader em:appraisal;
+	skos:scopeNote "origin:capital vice"@en;
+	skos:inScheme em:emotionOntology.
+
+em:charity rdf:type skos:Concept;
+	skos:prefLabel "charity"@en;
+	skos:prefLabel "naastenliefde"@nl;
+	skos:broader em:appraisal;
+	skos:related em:love;
+	skos:scopeNote "origin:theological virtue"@en;
+	skos:inScheme em:emotionOntology.
+
+em:courage rdf:type skos:Concept;
+	skos:prefLabel "courage"@en;
+	skos:prefLabel "moed"@nl;
+	skos:altLabel "fortitude"@en;
+	skos:altLabel "courageous"@en;
+	skos:broader em:appraisal;
+	skos:scopeNote "origin:cardinal virtue"@en;
+	skos:inScheme em:emotionOntology.
+
+em:envy rdf:type skos:Concept;
+	skos:prefLabel "envy"@en;
+	skos:prefLabel "afgunst"@nl;
+	skos:altLabel "envious"@en;
+	skos:broader em:appraisal;
+	skos:scopeNote "origin:capital vice"@en;
+	skos:inScheme em:emotionOntology.
+
+em:faith rdf:type skos:Concept;
+	skos:prefLabel "faith"@en;
+	skos:prefLabel "geloof"@nl;
+	skos:altLabel "faithful"@en;
+	skos:broader em:appraisal;
+	skos:scopeNote "origin:theological virtue"@en;
+	skos:inScheme em:emotionOntology.
+
+em:gluttony rdf:type skos:Concept;
+	skos:prefLabel "gluttony"@en;
+	skos:prefLabel "vraatzucht"@nl;
+	skos:broader em:appraisal;
+	skos:scopeNote "origin:capital virtue"@en;
+	skos:inScheme em:emotionOntology.
+
+em:greed rdf:type skos:Concept;
+	skos:prefLabel "greed"@en;
+	skos:prefLabel "hebzucht"@nl;
+	skos:altLabel "greedy"@en;
+	skos:broader em:appraisal;
+	skos:scopeNote "origin:capital virtue"@en;
+	skos:inScheme em:emotionOntology.
+
+em:hope rdf:type skos:Concept;
+	skos:prefLabel "hope"@en;
+	skos:prefLabel "hoop"@nl;
+	skos:altLabel "hopeful"@en;
+	skos:broader em:appraisal;
+	skos:scopeNote "origin:theological virtue"@en;
+	skos:inScheme em:emotionOntology.
+
+em:justice rdf:type skos:Concept;
+	skos:prefLabel "justice"@en;
+	skos:prefLabel "rechtvaardigheid"@nl;
+	skos:broader em:appraisal;
+	skos:scopeNote "origin:cardinal virtue"@en;
+	skos:inScheme em:emotionOntology.
+
+em:lust rdf:type skos:Concept;
+	skos:prefLabel "lust"@en;
+	skos:prefLabel "wellust"@nl;
+	skos:altLabel "lustful"@en;
+	skos:broader em:appraisal;
+	skos:scopeNote "origin:capital vice"@en;
+	skos:inScheme em:emotionOntology.
+
+em:pride rdf:type skos:Concept;
+	skos:prefLabel "pride"@en;
+	skos:prefLabel "trots"@nl;
+	skos:broader em:appraisal;
+	skos:scopeNote "origin:capital vice"@en;
+	skos:inScheme em:emotionOntology.
+
+em:prudence rdf:type skos:Concept;
+	skos:prefLabel "prudence"@en;
+	skos:prefLabel "voorzichtigheid"@nl;
+	skos:broader em:appraisal;
+	skos:scopeNote "origin:cardinal virtue"@en;
+	skos:inScheme em:emotionOntology.
+
+em:sloth rdf:type skos:Concept;
+	skos:prefLabel "sloth"@en;
+	skos:prefLabel "traagheid"@nl;
+	skos:broader em:appraisal;
+	skos:scopeNote "origin:capital vice"@en;
+	skos:inScheme em:emotionOntology.
+
+em:temperance rdf:type skos:Concept;
+	skos:prefLabel "temperance"@en;
+	skos:prefLabel "gematigdheid"@nl;
+	skos:broader em:appraisal;
+	skos:scopeNote "origin:cardinal virtue"@en;
+	skos:inScheme em:emotionOntology.
+
+em:wrath rdf:type skos:Concept;
+	skos:prefLabel "wrath"@en;
+	skos:prefLabel "toorn"@nl;
+	skos:broader em:appraisal;
+	skos:scopeNote "origin:capital vice"@en;
+	skos:inScheme em:emotionOntology.
+
+
+
+

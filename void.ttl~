@@ -9,7 +9,6 @@
 	lib:source <http://purl.org/vocab/emotion/> ;
 	dcterms:title "Emotion ontology" ;
 	void:subset <Emotion-links-wordnet> ;
-	void:subset <Emotion-synonyms> ;
 	void:dataDump
 		<emotions.ttl> .
 

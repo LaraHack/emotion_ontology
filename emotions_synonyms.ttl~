@@ -1,0 +1,207 @@
+@prefix em: <http://purl.org/vocab/emotion/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+em:emotion skos:altLabel "rage"@en, "fury"@en;
+	skos:altLabel "boosheid"@nl, "nijd"@nl.
+
+em:anger skos:altLabel "rage"@en, "fury"@en;
+	skos:altLabel "boosheid"@nl, "nijd"@nl.
+
+em:annoyance skos:altLabel "irritation"@en, "indignation"@en;
+	skos:altLabel "ergemis"@nl, "irritatie"@nl, "misnoegen"@nl.
+
+em:acquiescence skos:altLabel "compliance"@en, "acceptance"@en, "approval"@en;
+	skos:altLabel "gelatenheid"@nl, "lijdzaamheid"@nl.
+
+em:awe skos:altLabel "admiration"@en, "reverence"@en;
+	skos:altLabel "achting"@nl, "eerbied"@nl.
+
+em:benevolence skos:altLabel "compassion"@en, "kindness"@en;
+	skos:altLabel "goedertierenheid"@nl, "gedienstigheid"@nl, "goedgunstigheid"@nl.
+
+em:compassion skos:altLabel "kindness"@en, "kindness"@en, "grace"@en;
+	skos:altLabel "compassie"@nl, "medeleven"@nl, "medelijden"@nl.
+
+em:dedication skos:altLabel "commitment"@en, "devotion"@en;
+	skos:altLabel "ijver"@nl, "overgave"@nl, "bevlogenheid"@nl.
+
+em:desire skos:altLabel "lust"@en, "yearning"@en;
+	skos:altLabel "begeren"@nl, "hunkeren"@nl, "smachten"@nl, "snakken"@nl.
+
+em:despair skos:altLabel "anguish"@en, "desperation"@en;
+	skos:altLabel "radeloosheid"@nl, "uitzichtloosheid"@nl.
+
+em:devotion skos:altLabel "dedication"@en, "adoration"@en, "piety"@en;
+	skos:altLabel "vroomheid"@nl, "godsvrucht"@nl.
+
+em:disappointment skos:altLabel "dismay"@en, "sorrow"@en;
+	skos:altLabel "deceptie"@nl, "tegenvaller"@nl, "anticlimax"@nl.
+
+em:disgust skos:altLabel "loathing"@en, "revulsion"@en;
+	skos:altLabel "aversie"@nl, "weerzin"@nl, "antipathie"@nl.
+
+em:fear skos:altLabel "reverence"@en, "awe"@en, "dread"@en, "fearfulness"@en, "afraid"@en;
+	skos:altLabel "bangheid"@nl, "vrees"@nl.
+
+em:feelingOfLoss skos:altLabel "loss"@en, "lack"@en, "need"@en, "deprivation"@en;
+	 skos:altLabel "ontbering"@nl, "gebrek"@nl.
+
+em:happiness skos:altLabel "bliss"@en, "contentment"@en, "delight"@en, "joy"@en;
+	 skos:altLabel "voorspoed"@nl, "welzijn"@nl.
+
+em:hatred skos:altLabel "revulsion"@en, "hate"@en, "loathing"@en, "disgust"@en;
+	 skos:altLabel "afkeer"@nl, "afgunst"@nl, "rancune"@nl.
+
+em:heavyHeartedness skos:altLabel "distress"@en, "affliction"@en, "despondency"@en;
+	 skos:altLabel "treurnis"@nl, "neerslachtigheid"@nl.
+
+em:honor skos:altLabel "esteem"@en, "dignity"@en;
+	 skos:altLabel "eigenwaarde"@nl.
+
+em:joy skos:altLabel "bliss"@en, "delight"@en, "elation"@en;
+	 skos:altLabel "opgetogenheid"@nl, "vreugde"@nl, "vrolijkheid"@nl, "plezier"@nl.
+
+em:love skos:altLabel "affection"@en, "fondness"@en, "appreciation"@en, "passion"@en, "devotion"@en;
+	 skos:altLabel "affectie"@nl, "genegenheid"@nl, "hartstocht"@nl.
+
+em:loyalty skos:altLabel "devotion"@en, "allegiance"@en;
+	 skos:altLabel "loyaliteit"@nl, "getrouw"@nl.
+
+em:moved skos:altLabel "affected"@en, "touched"@en;
+	 skos:altLabel "aangedaan"@nl, "getroffen"@nl.
+
+em:offended skos:altLabel "enraged"@en, "infuriated"@en, "outraged"@en, "wrathful"@en, "furious"@en;
+	 skos:altLabel "gekrenkt"@nl, "verbolgen"@nl.
+
+em:relief skos:altLabel "easement"@en, "consolation"@en, "solace"@en;
+	 skos:altLabel "soelaas"@nl, "troost"@nl, "verademing"@nl.
+
+em:remorse skos:altLabel "repentance"@en, "regret"@en, "remorsefulness"@en, "contriteness"@en;
+	 skos:altLabel "inkeer"@nl, "schuldbesef"@nl, "berouw"@nl.
+
+em:sadness skos:altLabel "anguish"@en, "grief"@en, "sorrow"@en;
+	 skos:altLabel "bedroefdheid"@nl, "droefnis"@nl, "droefheid"@nl, "kommer"@nl, "leedwezen"@nl.
+
+em:shame skos:altLabel "disgrace"@en, "embarassement"@en, "contriteness"@en;
+	 skos:altLabel "schroom"@nl, "gene"@nl.
+
+em:spitefulness skos:altLabel "meanness"@en, "malice"@en, "malevolence"@en;
+	 skos:altLabel "animositeit"@nl, "vete"@nl, "verbittering"@nl.
+
+em:suspicion skos:altLabel "distrust"@en, "uncertainty"@en, "reservation"@en, "mistrust"@en;
+	 skos:altLabel "argwaan"@nl, "wantrouwen"@nl.
+
+em:trust skos:altLabel "confidence"@en, "faith"@en;
+	 skos:altLabel "confidentie"@nl, "fiducie"@nl, "rekenen op"@nl.
+
+em:unhappiness skos:altLabel "grief"@en, "sorrow"@en, "sadness"@en;
+	 skos:altLabel "ellendig"@nl, "onfortuinlijk"@nl.
+
+em:vindictiveness skos:altLabel "hatefulness"@en, "revengefulness"@en;
+	 skos:altLabel "wraaklustigheid"@nl, "rancune"@nl.
+
+em:wonder skos:altLabel "awe"@en, "admiration"@en, "wonderment"@en;
+	 skos:altLabel "verbijstering"@nl, "verbluffing"@nl.
+
+em:worry skos:altLabel "apprehension"@en, "uneasiness"@en, "disquietude"@en, "anxiousness"@en;
+	 skos:altLabel "ongerustheid"@nl.
+
+em:appraisal skos:closeMatch wn:104854529-n; 
+	 skos:closeMatch wn:105146223-n;
+	 skos:closeMatch wn:104854713-n;
+	 skos:closeMatch wn:104861104-n;
+	 skos:closeMatch wn:100748327-n.
+
+em:arrogance skos:altLabel "haughtiness"@en, "pride"@en, "conceit"@en, "self-importance"@en;
+	 skos:altLabel "trots"@nl, "aanmatiging"@nl, "arrogantie"@nl.
+
+em:charity skos:altLabel "kindness"@en, "compassion"@en, "goodwill"@en;
+	 skos:altLabel "barmhartigheid"@nl.
+
+em:courage skos:altLabel "bravery"@en, "fortitude"@en, "boldness"@en;
+	 skos:altLabel "dapperheid"@nl, "durf"@nl, "koenheid"@nl, "lef"@nl, "onverschrokkenheid"@nl.
+
+em:envy skos:altLabel "jealousy"@en, "spite"@en;
+	 skos:altLabel "jaloezie"@nl.
+
+em:faith skos:altLabel "belief"@en, "religion"@en;
+	 skos:altLabel "vertrouwen"@nl.
+
+em:gluttony skos:altLabel "greed"@en, "overeating"@en;
+	 skos:altLabel "gulzigheid"@nl.
+
+em:greed skos:altLabel "avarice"@en, "rapacity"@en;
+	 skos:altLabel "begerigheid"@nl, "inhaligheid"@nl, "winzucht"@nl.
+
+em:hope skos:altLabel "aspiration"@en;
+	 skos:altLabel "houvast"@nl.
+
+em:justice skos:altLabel "fairness"@en, "equity"@en;
+	 skos:altLabel "gerechtigheid"@nl, "billijkheid"@nl.
+
+em:lust skos:altLabel "desire"@en, "passion"@en, "craving"@en;
+	 skos:altLabel "lust"@nl, "wulpsheid"@nl.
+
+em:pride skos:altLabel "arrogance"@en, "vanity"@en;
+	 skos:altLabel "lust"@nl, "wulpsheid"@nl.
+
+em:prudence skos:altLabel "caution"@en, "care"@en, "circumspection"@en;
+	 skos:altLabel "bedachtzaamheid"@nl, "behoedzaamheid"@nl.
+
+em:sloth skos:altLabel "caution"@en, "care"@en, "circumspection"@en;
+	 skos:altLabel "luiheid"@nl, "sloomheid"@nl.
+
+em:temperance skos:altLabel "moderation"@en;
+	 skos:altLabel "soberheid"@nl, "karigheid"@nl, "spaarzaamheid"@nl, "bescheidenheid"@nl.
+
+em:wrath skos:altLabel "rage"@en, "anger"@en, "fury"@en;
+	 skos:altLabel "gramschap"@nl, "drift"@nl, "razernij"@nl.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

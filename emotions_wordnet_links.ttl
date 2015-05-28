@@ -130,7 +130,7 @@ em:arrogance skos:closeMatch wn:104895107-n.
 
 em:charity skos:closeMatch wn:104847636-n.
 
-em:courage skos:closeMatch wn:1104864314-n;
+em:courage skos:closeMatch wn:104864314-n;
 	 skos:closeMatch wn:105039348-n.
 
 em:envy skos:closeMatch wn:107565182-n;
